@@ -104,6 +104,7 @@ public class WebConfig {
 }
 
 📚 Repositórios
+
 GameRepository
 @Query(nativeQuery = true, value = """
 		SELECT tb_game.id, tb_game.title, tb_game.game_year AS `year`, tb_game.img_url AS imgUrl,
